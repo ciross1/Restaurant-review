@@ -1,0 +1,66 @@
+Elasticsearch
+
+What it is:
+Elasticsearch is a search engine and analytics database. It stores large amounts of structured and unstructured data in a way that makes searching very fast.
+
+Key points:
+
+Built on Lucene (a powerful search library).
+
+Stores data as JSON documents.
+
+Can index, search, and aggregate data in real time.
+
+Often used for logs, metrics, product catalogs, or anything where fast search matters.
+
+Example in your app:
+Your restaurant reviews could be stored in Elasticsearch. You could then search for:
+
+Restaurants by name, cuisine, or location.
+
+Reviews containing certain keywords.
+
+Aggregate data like average ratings.
+
+
+
+---------------------------------------------------------------------------------------------------
+
+Kibana
+
+What it is:
+Kibana is a visualization and dashboard tool for Elasticsearch.
+It doesn’t store data; it reads from Elasticsearch and lets you explore, visualize, and analyze data.
+
+Key points:
+
+Create dashboards, charts, and graphs.
+
+Filter, sort, and drill down into data quickly.
+
+Often used for log monitoring, analytics, or any data stored in Elasticsearch.
+
+Example in your app:
+You could build dashboards showing:
+
+Most reviewed restaurants.
+
+Average ratings over time.
+
+Keyword trends in reviews.
+
+3. How they combine
+
+Elasticsearch stores the data
+
+Example: restaurant reviews, ratings, user activity.
+
+Kibana reads the data from Elasticsearch
+
+You can build dashboards or visual queries without touching your database directly.
+
+Workflow example:
+
+A user posts a review → data is indexed in Elasticsearch.
+
+Kibana dashboard updates → shows trending restaurants or top-rated dishes.
