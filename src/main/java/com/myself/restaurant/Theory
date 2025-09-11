@@ -1,0 +1,94 @@
+
+
+
+
+ELASTICSEARCH: --------------------------------------------------------------------------------
+
+What it is: A search and analytics engine.
+
+Think of it as: A super-fast database optimized for searching, filtering, and analyzing huge amounts of data.
+
+Use cases:
+
+Searching text (like Google search for your website)
+
+Storing logs or metrics
+
+Analyzing large datasets in real time
+
+Example:
+You have a database of restaurants. Elasticsearch can quickly answer:
+
+“Find all restaurants in New York with a rating above 4.5”
+
+“Show the top 10 most popular dishes in the last month”
+
+
+
+KIBANA--------------------------------------------------------------------------------------
+
+What it is: A web-based interface/dashboard for Elasticsearch.
+
+Think of it as: A “front-end” to see, explore, and visualize your Elasticsearch data.
+
+Use cases:
+
+Create charts, graphs, and maps of your data
+
+Analyze trends visually
+
+Search and filter your data easily
+
+Example:
+With the restaurant data in Elasticsearch, Kibana can show:
+
+A map of all restaurants by location
+
+A bar chart of average ratings
+
+Real-time updates on new restaurants being added
+
+
+
+
+
+KEYCLOAK---------------------------------------------------------------------------------------
+
+What it is: An identity and access management (IAM) system.
+
+Think of it as: A tool to manage users, logins, and permissions.
+
+Use cases:
+
+Login for websites or apps
+
+Single Sign-On (SSO) across multiple apps
+
+Managing roles and access permissions
+
+Example:
+
+Users log in to your restaurant management app through Keycloak.
+
+Admins can control who can add, edit, or delete restaurants.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tool	               Role	                                                          Analogy
+Elasticsearch  	Data storage & search engine	             Super-smart filing cabinet
+Kibana	             Data visualization & dashboards	               Magnifying glass & charts for the cabinet
+Keycloak	         User login & access management	           Security guard controlling who can open drawers
